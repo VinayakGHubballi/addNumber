@@ -2,4 +2,7 @@ def addition(a,b):
     return a+b
 
 if __name__ == "__main__":
-    print("Addition is: ", addition(20,30))
+    a = int(input("Enter value a: "))
+    b = int(input("Enter value b: "))
+
+    print("Addition is: ", addition(a,b))
